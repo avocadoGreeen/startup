@@ -63,4 +63,9 @@ $(function(){
 		$('body').toggleClass('lock');
 	});
 
+	$('.header__menu a').click(function(event){
+		$('.header__burger, .header__menu').toggleClass('active-menu');
+		$('body').toggleClass('lock');
+	});
+
 });

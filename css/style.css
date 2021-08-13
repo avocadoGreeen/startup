@@ -38,6 +38,10 @@
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.25px;
+	transition: all .3s easy;
+}
+.header__menu-list a:hover{
+	border-bottom: 2px solid #fff;
 }
 
 .wrapper{
@@ -111,7 +115,6 @@
 .blog__title,
 .contacts__title{
 	padding-top: 100px;
-	margin-bottom: 60px;
 	position: relative;
 }
 .services__title::after,
@@ -120,18 +123,15 @@
 .blog__title::after,
 .contacts__title::after{
 	content: '';
-	position: absolute;
-	display: inline-block;
+	display: block;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 30px auto;
 	width: 50px;
 	height: 2px;
 	background-color: #555555;
-	top: 123%;
-  left: 45%;
-}
-.lastwork__title::after,
-.blog__title::after,
-.contacts__title::after{
-	left: 48%;
+	
 }
 .subtitle{
 	font-family: 'Roboto Slab', serif;
@@ -455,7 +455,8 @@
 	max-width: 460px;
 }
 .blog__text{
-	padding: 0 15px 0 40px;
+	padding: 0 15px;
+  margin-left: 40px;
 }
 .blog__top-info{
 	display: flex;

@@ -1,3 +1,3 @@
 # startup landing
 
-https://avocode1353.github.io/startup/
+https://avocadogreeen.github.io/startup/
